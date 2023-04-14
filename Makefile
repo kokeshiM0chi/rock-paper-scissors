@@ -36,3 +36,6 @@ play_goo:
 
 show_result:
 	grpc_cli call localhost:50051 game.RockPaperScissorsService.ReportMatchResults ''
+
+play:
+	go run ./cmd/cli
